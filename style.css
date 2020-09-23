@@ -1,0 +1,26 @@
+section img {
+    float: left;
+}
+
+section h3 {
+    float: left;
+}
+
+section p {
+    float: left;
+}
+
+section .about-me .container {
+    border: 5px;
+    background: black;
+    padding: 35px;
+}
+
+footer {
+    background-color: gray;
+    border-top: 10px;
+    border-top-color: darkseagreen;
+    padding-bottom: 45px;
+    position: initial;
+    margin-top: 200px;
+}
