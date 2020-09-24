@@ -1,26 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    overflow-x: hidden;
+}
+
+.nav-box-color {
+    background-color: rgb(15, 121, 89);
+}
+
+.title-text-color {
+    color: rgb(15, 100, 170);
+}
+
 section img {
     float: left;
+    padding-right: 15px;
 }
 
-section h3 {
-    float: left;
+.box {
+    background-color: aliceblue;
+
 }
 
-section p {
-    float: left;
+.top-col {
+    margin-top: 15px;
 }
 
-section .about-me .container {
-    border: 5px;
-    background: black;
-    padding: 35px;
+.bottom-col {
+    margin-bottom: 150px;
+}
+
+
+
+section {
+    background-image: url(../teters.responsive.portfolio/assets/pexels-henry-&-co-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
-    background-color: gray;
+    background-color: rgb(15, 121, 89);
     border-top: 10px;
-    border-top-color: darkseagreen;
+    border-top-color: rgb(15, 100, 170);
     padding-bottom: 45px;
-    position: initial;
-    margin-top: 200px;
+    margin-top: 0;
+    position: relative;
+    border-top-style: solid;
 }
