@@ -1,17 +1,15 @@
-* {
-    box-sizing: border-box;
-}
-
-header {
-    overflow-x: hidden;
-}
+/*navbar styling*/
 
 .nav-box-color {
-    background-color: rgb(15, 121, 89);
+    background-color: #DB8248;
+}
+
+.nav-color {
+    background-color: #8B272A;
 }
 
 .title-text-color {
-    color: rgb(15, 100, 170);
+    color: #F5FBF5;
 }
 
 section img {
@@ -20,8 +18,8 @@ section img {
 }
 
 .box {
-    background-color: aliceblue;
-
+    background-color: #DB8248;
+    box-shadow: inset;
 }
 
 .top-col {
@@ -35,15 +33,15 @@ section img {
 
 
 section {
-    background-image: url(../assets/pexels-henry-&-co-1939485.jpg);
+    background-image: url(../assets/pexels-maria-tyutina-3215407.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 footer {
-    background-color: rgb(15, 121, 89);
+    background-color: #8B272A;
     border-top: 10px;
-    border-top-color: rgb(15, 100, 170);
+    border-top-color: #DF8388;
     padding-bottom: 45px;
     margin-top: 0;
     position: relative;
@@ -54,6 +52,12 @@ footer {
 /*Contact form styling*/
 
 .btn-color {
-    background-color: rgb(15, 100, 170);
+    background-color: #8B272A;
     ;
 }
+
+/*
+.btn-text {
+    color: #DF8388;
+}
+*/
