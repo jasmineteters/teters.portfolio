@@ -8,14 +8,23 @@
     background-color: #8B272A;
 }
 
+.custom-toggler .navbar-toggler-icon {
+    border-color: #DB8248;
+    background-image: url(../assets/pinpng.com-hamburger-menu-icon-png-1639439.png);
+    z-index: 1;
+    background-color: #8B272A;
+}
+
 .title-text-color {
     color: #F5FBF5;
 }
 
-section img {
+img {
     float: left;
-    padding-right: 15px;
+    padding: 15px;
+    border-radius: 10%;
 }
+
 
 .box {
     background-color: #DB8248;
