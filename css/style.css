@@ -1,5 +1,4 @@
 /*navbar styling*/
-
 .nav-box-color {
     background-color: #DB8248;
 }
@@ -8,6 +7,12 @@
     background-color: #8B272A;
 }
 
+.title-text-color {
+    color: #F5FBF5;
+}
+
+
+/*responsive toggle bar for mobile compatibility*/
 .custom-toggler .navbar-toggler-icon {
     border-color: #DB8248;
     background-image: url(../assets/pinpng.com-hamburger-menu-icon-png-1639439.png);
@@ -15,16 +20,25 @@
     background-color: #8B272A;
 }
 
-.title-text-color {
-    color: #F5FBF5;
-}
 
+/*Section photos and grid formatting*/
 img {
     float: left;
     padding: 15px;
     border-radius: 10%;
 }
 
+.about-me-img {
+    max-width: 350px;
+}
+
+.img-br {
+    max-width: 350px;
+}
+
+.img-bottom {
+    width: 100%;
+}
 
 .box {
     background-color: #DB8248;
@@ -40,13 +54,24 @@ img {
 }
 
 
-
-section {
+/*Section background for index and contact, not for portfolio, too distracting for the photos*/
+.section-bg {
     background-image: url(../assets/pexels-maria-tyutina-3215407.jpg);
+    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
+
+/*Contact form styling*/
+.btn-color {
+    background-color: #8B272A;
+    ;
+}
+
+
+/*Footer styling*/
 footer {
     background-color: #8B272A;
     border-top: 10px;
@@ -56,17 +81,3 @@ footer {
     position: relative;
     border-top-style: solid;
 }
-
-
-/*Contact form styling*/
-
-.btn-color {
-    background-color: #8B272A;
-    ;
-}
-
-/*
-.btn-text {
-    color: #DF8388;
-}
-*/
