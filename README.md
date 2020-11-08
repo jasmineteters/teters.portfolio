@@ -21,7 +21,7 @@ The designated usage of this is to show everyone my accomplishments
 
 ## License Details:
 
-LICENSE []
+[LICENSE](https://github.com/jasmineteters/teters.portfolio/blob/master/LICENSE)
 
 ## List of Contributors:
 
