@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-[1. Description](#Description)
-[2. App Usage](#App-Usage)
-[3. License Details](#License-Details)
-[4. List of Contributors](#List-of-Contributors)
-[5. Tests](#Tests)
-[7. Questions](#Questions)
-[8. Live Deployment](#Live-Deployment)
-[9. Gif of App](#Gif-of-App)
+[1. Description](##Description)
+[2. App Usage](##App-Usage)
+[3. License Details](##License-Details)
+[4. List of Contributors](##List-of-Contributors)
+[5. Tests](##Tests)
+[7. Questions](##Questions)
+[8. Live Deployment](##Live-Deployment)
+[9. Gif of App](##Gif-of-App)
 
 ## Description:
 
@@ -21,7 +21,7 @@ The designated usage of this is to show everyone my accomplishments
 
 ## License Details:
 
-No License - Free Use
+LICENSE []
 
 ## List of Contributors:
 
