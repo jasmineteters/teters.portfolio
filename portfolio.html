@@ -7,15 +7,16 @@
   <title>Jasmine's Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="/teters.responsive.portfolio//css/style.css">
+  <link rel="stylesheet" href="../teters.portfolio/css/style.css">
 </head>
 
 <body>
   <!--This is the Navbar, bootstrap copy and paste, with modifications-->
   <header>
-    <div class="container-fluid nav-color">
-      <nav class="navbar navbar-expand-lg nav-color">
-        <a class="navbar-brand nav-box-color text-white p-2 rounded-pill" href="index.html">Jasmine Teters</a>
+    <div class="container-fluid dark-blue-color">
+      <nav class="navbar navbar-expand-lg dark-blue-color">
+        <!-- <a class="navbar-brand box text-white p-2 rounded-pill" href="index.html">Jasmine Teters</a> -->
+        <img src="../teters.portfolio/assets/JT Web Dev Logo.png" style="max-height: 200px;" href="index.html">
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon navbar-light"></span>
@@ -23,15 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="mr-auto"></div>
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">About</a>
+            </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">About</a>
-            </li>
+
           </ul>
         </div>
       </nav>
@@ -39,48 +41,80 @@
   </header>
   <!--main section of the page, the portfolio images-->
   <section class="Portfolio">
-    <div class="container container-fluid">
-      <div class="row text-left">
-        <div class="col-md-8 col-sm-10 col-xs-12 box top-col pt-2">
-          <h2 class="title-text-color p-2 border-bottom">Portfolio</h2>
+    <div class="jumbotron jumbotron-fluid dark-blue-color text-white pt-3">
+      <div class="container">
+        <h1 class="display-3">My Portfolio</h1>
+        <p class="lead">This is a growing list of projects, assignments, and side projects that are developing my
+          skills.</p>
+      </div>
+    </div>
+    
+    <div class="card-group">
+      <div class="card m-3 shadow" style="width: 50%;">
+        <img src="../teters.portfolio/assets/BikesandBrews.jpg" class="card-img-top border-bottom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bikes and Brews</h5>
+          <p class="card-text">Group Project to develop a web app to source mountain bike trails, paired with a local
+            brewery for a post-ride refreshment. Use your current location or provide your zip code. Click on the trail
+            or brewery for additional information. Functionality made with JavaScript using API calls, HTML and
+            Bootstrap for design.</p>
+          <a href="https://jasmineteters.github.io/Bikes-and-Brews/" class="btn btn-color text-white ">Bikes and
+            Brews</a>
         </div>
       </div>
-      <div class="row pb-4">
-        <div class="col-md-8 col-sm-10 col-xs-12 box">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/balance-hike.JPG"
-               alt="Me on a hike in Draper, UT">
 
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/flannel-redwoods-copy.jpg"
-               alt="Me walking in Crescent City, CA">
-        </div>
-        <div class="col-md-8 col-sm-10 col-xs-12 box">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/bike-copy.jpg"
-               alt="My Canyon Endurance Bike">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/yellowstone-falls.jpg"
-               alt="Artists point in Yellowstone NP">
-        </div>
-        <div class="col-md-8 col-sm-10 col-xs-12 box">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/glacier-back-copy.jpg"
-               alt="the highline trail in Glacier NP">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/winter-arches-copy.jpg"
-               alt="winter in Arches NP">
-        </div>
-        <div class="col-md-8 col-sm-10 col-xs-12 box">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/rtt-ca-copy.jpg"
-               alt="my rooftop tent in Sequoia NP">
-          <img class="img-fluid max-width img-br" src="../teters.responsive.portfolio/assets/rtt-arches-copy.jpg"
-               alt="a photo of my car in Arches NP">
-        </div>
-        <div class="col-md-8 col-sm-10 col-xs-12 box">
-          <img class="img-fluid max-width img-bottom"
-               src="../teters.responsive.portfolio/assets/hair-wing-oregon-copy.jpg" alt="hair blowing in oregon">
+      <div class="card m-3 shadow border" style="width: 25rem;">
+        <img src="../teters.portfolio/assets/example-gym.jpg" class="card-img-top border-bottom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Example Gym Website</h5>
+          <p class="card-text">My friend is opening a gym and I wanted to make an example website of how that could look, I utilized a youtube tutorial for certain aspects. Made with HTML, CSS and extensive Bootstrap use.</p>
+          <a href="https://jasmineteters.github.io/example-gym/#" class="btn btn-color text-white">Example Gym</a>
         </div>
       </div>
     </div>
+    <div class="card-group">
+      <div class="card m-3 shadow" style="width: 50%;">
+        <img src="../teters.portfolio/assets/5DayForecast.gif" class="card-img-top border-bottom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">5 Day Weather Forecast</h5>
+          <p class="card-text">Web app for getting the 5 day forecast for a chosen location.</p>
+          <a href="https://jasmineteters.github.io/5DayWeatherApp/" class="btn btn-color text-white ">Get the Weather</a>
+        </div>
+      </div>
+
+        <div class="card m-3 shadow" style="width: 50%;">
+        <img src="../teters.portfolio/assets/dayPlanner.gif" class="card-img-top border-bottom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Work Day Scheduler</h5>
+          <p class="card-text">This is a web app that allows the user to plan a single day. If the time block is red, it means that time is in the past, if it is light blue, it's the current hour, and darker blue is the future. You can schedule in any of the text areas and press the save button on the right. The text will persist after page refresh.</p>
+          <a href="https://jasmineteters.github.io/calendarHomework/" class="btn btn-color text-white ">Work Day Scheduler</a>
+        </div>
+      </div>
+    </div>
+    <div class="card-group" >
+      <div class="card m-3 shadow" style="width: 50%;">
+        <img src="../teters.portfolio/assets/passwordGenerator.gif" class="card-img-top border-bottom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Password Generator</h5>
+          <p class="card-text">This is an app that allows the user to generate a random password of their preferred length between 8-124 characters long. They choose if they want to include special characters, UPPERCASE letters, and/or numbers. Once the prompt and confirms have been completed, the random password will populate in the password section.</p>
+          <a href="https://jasmineteters.github.io/calendarHomework/" class="btn btn-color text-white ">Password Generator</a>
+        </div>
+      </div>
+
+      <div class="card m-3 shadow border" style="width: 25rem;">
+        <img src="../teters.portfolio/assets/resume-clip.jpg" class="card-img-top border-bottom" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Full-Stack Web Development Resume</h5>
+          <p class="card-text">This is a live document that is evolving as I go through my bootcamp</p>
+          <a href="https://jasmineteters.github.io/passwordGenerator/" class="btn btn-color text-white">Resume</a>
+        </div>
+      </div>
+    </div>
+
   </section>
 
   <!--This is the plain footer-->
-  <footer class="text-center text-muted">
+  <footer class="text-center text-white dark-blue-color">
     <p>&copy; Copyright</p>
   </footer>
 

@@ -25,7 +25,7 @@
 img {
     float: left;
     padding: 15px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 
 .about-me-img {
@@ -41,7 +41,7 @@ img {
 }
 
 .box {
-    background-color: #DB8248;
+    background-color: #b8c8cf;
     box-shadow: inset;
 }
 
@@ -66,16 +66,21 @@ img {
 
 /*Contact form styling*/
 .btn-color {
-    background-color: #8B272A;
+    background-color: #101e42;
+    ;
+}
+
+.dark-blue-color {
+    background-color: #101e42;
     ;
 }
 
 
 /*Footer styling*/
 footer {
-    background-color: #8B272A;
+    background-color: #101e42;
     border-top: 10px;
-    border-top-color: #DF8388;
+    border-top-color: #b8c8cf;
     padding-bottom: 45px;
     margin-top: 0;
     position: relative;

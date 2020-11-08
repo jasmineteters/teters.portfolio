@@ -1,13 +1,52 @@
-# teters.responsive.portfolio
+# Jasmine-Teters-Portfolio
 
-Bootcamp homework #2 - Responsive Portfolio
+## Table of Contents
 
-## Description and Goal
+[1. Description](#Description)
+[2. App Usage](#App-Usage)
+[3. License Details](#License-Details)
+[4. List of Contributors](#List-of-Contributors)
+[5. Tests](#Tests)
+[7. Questions](#Questions)
+[8. Live Deployment](#Live-Deployment)
+[9. Gif of App](#Gif-of-App)
 
-This is a project to style our first real webpage. We were tasked to make this website responsive for mobile while using Bootstraps grid layout. We are also asked to use Bootstrap for other components, like our nav bar and other styling.
+## Description:
 
-We created 3 paged that are all linkable to one another. One is a bio landing page, one is a portfolio with photos, and the last is a contact page.
+This is my portfolio that is growing as my knowledge and skills expand throughout the course of my bootcamp!
 
-### Technologies Used
+## App Usage:
 
-Standard HTML for all of the pages with Bootstrap classes. Some of the components were copied and customized from Bootstrap. I used an additional styling sheet as well, for image formatting and color formatting.
+The designated usage of this is to show everyone my accomplishments
+
+## License Details:
+
+No License - Free Use
+
+## List of Contributors:
+
+Jasmine Teters
+My TAs
+My Classmates
+My Tutor
+Youtube
+Google
+
+## Tests:
+
+None
+
+## Questions:
+
+My github is linked here: https://github.com/jasmineteters
+Feel free to ask additional questions via email at:
+jasmineteters2020@gmail.com
+
+## Live Deployment:
+
+Link to the GitHub Repo: https://github.com/jasmineteters/teters.portfolio
+Link to the GitHub live page: https://jasmineteters.github.io/teters.portfolio/
+
+## Gif of App:
+
+![](/assets/portfolio.gif)

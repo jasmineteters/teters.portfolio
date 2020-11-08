@@ -7,15 +7,16 @@
   <title>Jasmine Teters</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="/teters.responsive.portfolio//css/style.css">
+  <link rel="stylesheet" href="../teters.portfolio/css/style.css">
 </head>
 
 <body>
   <!--This is the Navbar, bootstrap copy and paste, with modifications-->
   <header>
-    <div class="container-fluid nav-color">
-      <nav class="navbar navbar-expand-lg nav-color">
-        <a class="navbar-brand nav-box-color text-white p-2 rounded-pill" href="index.html">Jasmine Teters</a>
+    <div class="container-fluid dark-blue-color">
+      <nav class="navbar navbar-expand-lg dark-blue-color">
+        <!-- <a class="navbar-brand box text-white p-2 rounded-pill" href="index.html">Jasmine Teters</a> -->
+        <img src="../teters.portfolio/assets/JT Web Dev Logo.png" style="max-height: 200px;" href="index.html">
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon navbar-light"></span>
@@ -23,40 +24,41 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="mr-auto"></div>
           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">About</a>
+            </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">About</a>
-            </li>
+            
           </ul>
         </div>
       </nav>
     </div>
   </header>
   <!--main section of the page, the about me box-->
-  <section class="section-bg">
-    <div class="container container-fluid">
+  <section class="">
+    <div class="container container-fluid shadow">
       <div class="row text-left">
-        <div class="col-md-8 col-sm-8 box top-col">
-          <h2 class="title-text-color p-2 border-bottom">Contact</h2>
+        <div class="col-md-8 col-sm-8 top-col mx-auto">
+          <h2 class="p-2">Contact</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 col-sm-8 box bottom-col p-2">
+        <div class="col-md-8 col-sm-8 bottom-col p-2 mx-auto bg-white">
           <form>
-            <div class="form-group text-white">
+            <div class="form-group">
               <label>Name</label>
               <input class="form-control" type="text" placeholder="Name">
             </div>
-            <div class="form-group text-white">
+            <div class="form-group">
               <label>Email address</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
             </div>
-            <div class="form-group text-white">
+            <div class="form-group">
               <label>Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
             </div>
