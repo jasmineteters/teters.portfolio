@@ -1,10 +1,10 @@
 /*navbar styling*/
 .nav-box-color {
-    background-color: #DB8248;
+    background-color: #b8c8cf;
 }
 
 .nav-color {
-    background-color: #8B272A;
+    background-color: #101e42;
 }
 
 .title-text-color {
@@ -14,10 +14,10 @@
 
 /*responsive toggle bar for mobile compatibility*/
 .custom-toggler .navbar-toggler-icon {
-    border-color: #DB8248;
+    border-color: #101e42;
     background-image: url(../assets/pinpng.com-hamburger-menu-icon-png-1639439.png);
     z-index: 1;
-    background-color: #8B272A;
+    background-color: #101e42;
 }
 
 
